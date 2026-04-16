@@ -12,7 +12,7 @@ def filter_nagr_data(input_file, output_file):
             if row['Aptamer_Type'] == 'NagR':
                 writer.writerow(row)
 
-# 使用示例
+# Usage example
 input_file = 'processed_results_combined_by_pear.csv'
 output_file = 'NagR_new_constant.csv'
 filter_nagr_data(input_file, output_file)
